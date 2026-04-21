@@ -7,7 +7,6 @@ import { Upload } from './pages/Upload';
 
 function App() {
   return (
-    <BrowserRouter>
     <BrowserRouter basename="/SAT-web/">
       <Routes>
         <Route path="/" element={<MainLayout />}>
